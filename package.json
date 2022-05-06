@@ -1,0 +1,26 @@
+{
+  "name": "overlord",
+  "version": "1.0.0",
+  "description": "Function/method overloading.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+      "devStart": "nodemon ./test/t_simple.js",
+    "bugStart": "node --inspect ./test/t_simple.js",
+    "singleStart": "node ./test/t_simple.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "function-overload",
+    "method-overload",
+    "overload",
+    "overlord"
+  ],
+  "author": "Richard J. Glanvill <thedecimalspace@gmail.com> (thedecimal.space)",
+  "license": "ISC",
+  "dependencies": {
+    "taste-test": "^0.1.0"
+  }
+}

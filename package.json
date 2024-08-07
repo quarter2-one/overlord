@@ -7,10 +7,10 @@
     "test": "test"
   },
   "scripts": {
-      "devStart": "nodemon ./test/t_simple.js",
-    "bugStart": "node --inspect ./test/t_simple.js",
-    "singleStart": "node ./test/t_simple.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./test/t_simple.js",
+    "dbug": "node --inspect ./test/t_simple.js",
+    "test": "node ./test/t_simple.js",
+    "typed": "node ./test/t_simple.js"
   },
   "keywords": [
     "function-overload",
@@ -18,7 +18,7 @@
     "overload",
     "overlord"
   ],
-  "author": "Richard J. Glanvill <thedecimalspace@gmail.com> (thedecimal.space)",
+  "author": "Richard J. Glanvill <quarter2-one@yahoo.com> (quarter2.one)",
   "license": "ISC",
   "dependencies": {
     "taste-test": "^0.1.0"
